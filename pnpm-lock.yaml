@@ -1,5 +1,13 @@
 lockfileVersion: '6.0'
 
+dependencies:
+  '@fontsource/inter':
+    specifier: ^4.5.15
+    version: 4.5.15
+  svelte-css-vars:
+    specifier: ^0.0.3
+    version: 0.0.3
+
 devDependencies:
   '@sveltejs/adapter-auto':
     specifier: ^2.0.0
@@ -225,6 +233,10 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@fontsource/inter@4.5.15:
+    resolution: {integrity: sha512-FzleM9AxZQK2nqsTDtBiY0PMEVWvnKnuu2i09+p6DHvrHsuucoV2j0tmw+kAT3L4hvsLdAIDv6MdGehsPIdT+Q==}
+    dev: false
 
   /@jridgewell/resolve-uri@3.1.0:
     resolution: {integrity: sha512-F2msla3tad+Mfht5cJq7LSXcdudKTWCVYUgw6pLFOOHSTtZlj6SWNYAp+AhuqLmWdBO2X5hPrLcu8cVP8fy28w==}
@@ -879,6 +891,10 @@ packages:
       - stylus
       - sugarss
     dev: true
+
+  /svelte-css-vars@0.0.3:
+    resolution: {integrity: sha512-B7SLi7HGICpHI5oAx+NJRDsQChAIJ6wISwEUWN4CTU0h9WygKhcYwastnIoRkfdGE7tLfiKvEm+d102RRc8zwQ==}
+    dev: false
 
   /svelte-hmr@0.15.1(svelte@3.54.0):
     resolution: {integrity: sha512-BiKB4RZ8YSwRKCNVdNxK/GfY+r4Kjgp9jCLEy0DuqAKfmQtpL38cQK3afdpjw4sqSs4PLi3jIPJIFp259NkZtA==}
